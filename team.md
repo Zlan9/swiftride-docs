@@ -1,52 +1,73 @@
-# 👥 Team Members
+201~200~# 👥 Team Members
 
-## 🧑‍💼 Zlan9 – Repository Owner
-- **Role:** Project Maintainer  
+## 🧑‍💼 Zlan9  – Repository Owner
+
+- **Role:** Project Maintainer & Lead Reviewer  
 - **Environment:** Primary Machine  
-- **Responsibilities:**
-  - Initialize and configure the repository
-  - Manage branches and overall project structure
-  - Review pull requests submitted by collaborators
-  - Provide feedback and request changes when necessary
-  - Approve and merge contributions into the main development branch
-  - Ensure consistency and quality of documentation
+
+### 🔧 Core Responsibilities
+- Set up and configure the GitHub repository (`swiftride-docs`)
+- Define and manage the branching strategy (`main`, `dev`, feature branches)
+- Add and manage collaborator access with appropriate permissions
+- Ensure the repository follows a clean and structured workflow
+
+### 📝 Contributions
+- Created and initialized the repository with the base `README.md`
+- Created the `dev` branch and established it as the default working branch
+- Developed the `summary.md` file outlining the SwiftRide project
+- Reviewed collaborator contributions and provided actionable feedback
+- Verified updates after review changes were implemented
+- Approved and merged Pull Requests into the `dev` branch
+- Created and managed the `release/v1.0` branch for final deployment
+
+### ✅ Review & Quality Control
+- Ensured all commits were meaningful and properly structured  
+- Checked for clarity, completeness, and formatting in documentation  
+- Maintained consistency across all project files  
 
 ---
 
 ## 💻 Achixt628 – Collaborator
-- **Role:** Contributor  
+
+- **Role:** Contributor & Secondary Reviewer  
 - **Environment:** WSL / Virtual Machine  
-- **Responsibilities:**
-  - Clone and maintain a local copy of the repository
-  - Create feature branches for assigned tasks
-  - Develop and update documentation files
-  - Commit changes with clear and meaningful messages
-  - Participate in code reviews and respond to feedback
-  - Resolve merge conflicts when they arise
+
+### 🔧 Core Responsibilities
+- Work on assigned tasks using feature branches
+- Maintain synchronization with the latest `dev` branch
+- Contribute structured documentation files
+- Participate actively in the code review process
+- Handle merge conflicts and ensure smooth integration
+
+### 📝 Contributions
+- Cloned the repository and configured Git in a separate environment
+- Reviewed the `summary.md` Pull Request and provided detailed feedback
+- Suggested improvements and requested specific changes where needed
+- Created the `team.md` file documenting contributors and workflow
+- Made multiple commits to improve and refine documentation
+- Opened and managed Pull Requests with clear descriptions
+- Resolved merge conflicts in `releasenotes.md` by integrating changes from `dev`
+
+### 🔄 Conflict Resolution
+- Identified merge conflicts during Pull Request submission
+- Pulled the latest changes from the `dev` branch
+- Manually resolved conflicts in `releasenotes.md`
+- Committed and pushed the resolved version with a clear message
 
 ---
 
-## 🤝 Collaboration Workflow
+## 🤝 Collaboration Model
 
-The project follows a structured and collaborative Git workflow:
+This project follows a structured Git-based collaboration model:
 
-1. Work is performed on separate feature branches created from the `dev` branch  
-2. Changes are pushed to GitHub and submitted via Pull Requests  
-3. The other contributor reviews the changes and provides feedback  
-4. Required changes are implemented before approval  
-5. Approved Pull Requests are merged into the `dev` branch  
-
-This workflow ensures proper version control, accountability, and high-quality contributions.
-
----
-
-## 🔄 Communication & Review Process
-- All changes are reviewed through GitHub Pull Requests  
-- Feedback is provided in the form of review comments  
-- Contributors are expected to address feedback promptly  
-- Clear commit messages are used to reference review changes  
+- All work is performed on feature branches derived from `dev`
+- Pull Requests are used for integrating changes into `dev`
+- Every Pull Request undergoes a review process before merging
+- Feedback is addressed through additional commits
+- Conflicts are resolved locally before final merging
 
 ---
 
 ## 📌 Summary
-This project simulates a real-world collaborative development environment where two contributors work across different systems while maintaining synchronization through Git and GitHub workflows. It highlights the importance of structured collaboration, clear communication, and proper version control practices.
+
+The collaboration between Account A and Account B reflects a real-world development workflow where responsibilities are clearly divided between repository management and contribution. By working across two different environments and roles, the team ensures proper version control, accountability, and high-quality documentation through structured Git practices.
