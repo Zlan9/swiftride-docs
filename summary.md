@@ -39,8 +39,5 @@ The app is designed with a simple and intuitive interface, making it easy for us
 ### 🧭 Smart Matching Algorithm
 SwiftRide uses an intelligent matching system to connect riders with the nearest available drivers, reducing waiting time and improving efficiency.
 
-### 🔔 Notifications and Alerts
-Users receive real-time notifications about ride status, driver arrival, trip updates, and payment confirmations, ensuring they are always informed.
-
 ## 🚀 Vision
 To become a reliable and widely used ride-sharing platform that improves urban mobility and reduces travel inefficiencies.
